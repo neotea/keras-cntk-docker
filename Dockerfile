@@ -12,6 +12,9 @@ RUN pip3 install numpy pandas sklearn h5py
 # Keras
 RUN pip3 install git+https://github.com/fchollet/keras.git
 
+# AETROS
+RUN pip3 install aetros
+
 # CNTK
 RUN pip3 install https://cntk.ai/PythonWheel/GPU/cntk-2.0-cp35-cp35m-linux_x86_64.whl
 
