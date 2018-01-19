@@ -17,7 +17,7 @@ RUN pip3 install git+https://github.com/fchollet/keras.git
 RUN pip3 install https://cntk.ai/PythonWheel/CPU-Only/cntk-2.0-cp35-cp35m-linux_x86_64.whl
 
 # AETROS
-RUN pip3 isntall aetros
+RUN pip3 install aetros
 
 # Create folder for Keras i/o
 WORKDIR /keras
